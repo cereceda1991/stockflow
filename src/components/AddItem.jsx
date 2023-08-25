@@ -2,7 +2,7 @@ import { FaCamera } from "react-icons/fa"
 import { MdUpload } from "react-icons/md"
 
 
-const AddItem = () => {
+export const AddItem = () => {
     return (
         <div className='p-5'>
             <div>
@@ -39,5 +39,3 @@ const AddItem = () => {
         </div>
     )
 }
-
-export default AddItem
